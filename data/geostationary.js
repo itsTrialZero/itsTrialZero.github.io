@@ -2,10 +2,14 @@ window.TZ = window.TZ || { topics: {} };
 
 window.TZ.topics["geostationary"] = {
   id: "geostationary",
-  title: "Geostationary satellites",
+  title: "Geostationary Satellites",
   subtitle: "How something stays parked in the sky",
   blurb: "It is racing at 11,000 km an hour and it looks completely still. Both of those are true.",
-  video: null,
+  video: {
+    id: "zvUOqvD4CBA",
+    url: "https://youtu.be/zvUOqvD4CBA",
+    title: "Geostationary Satellite"
+  },
   trials: [
     {
       n: 1,
